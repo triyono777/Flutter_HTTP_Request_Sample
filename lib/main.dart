@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:http_contoh/ListData.dart';
+import 'package:http_contoh/src/ListData.dart';
 import 'dart:convert';
 
-import 'package:http_contoh/dashboard.dart';
-import 'package:http_contoh/login.dart';
-import 'package:http_contoh/register.dart';
+import 'package:http_contoh/src/dashboard.dart';
+import 'package:http_contoh/src/login.dart';
+import 'package:http_contoh/src/register.dart';
 
 void main() => runApp(MyApp());
 
